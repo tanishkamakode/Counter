@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Tailwind Starter</title>
+  </head>
+  <body class="bg-[#edf4f8]">
+    <section id="main" class="font-Comfotaa">
+      <h1
+        class="text-center text-4xl md:text-5xl mt-20 md:mt-10 text-[#4A8DB7]"
+      >
+        Counter
+      </h1>
+      <div
+        class="mx-10 md:mx-auto mt-16 md:mt-10 py-20 md:py-40 md:px-96 max-w-md bg-[#A2E2F8] rounded-xl"
+      >
+        <p class="count text-5xl md:text-6xl text-center pb-10 text-[#3B7097]">
+          0
+        </p>
+        <div
+          class="flex flex-col items-center justify-center md:flex-row gap-14"
+        >
+          <button
+            class="btn dec-btn border border-[#4A8DB7] text-[#3B7097] px-4 py-2 rounded-lg hover:bg-[#75BDE0] hover:text-white hover:duration-300"
+          >
+            Decrease
+          </button>
+          <button
+            class="reset bg-[#4A8DB7] border border-[#4A8DB7] text-white px-8 py-2 rounded-lg hover:bg-transparent hover:text-[#3B7097] hover:duration-300"
+          >
+            Reset
+          </button>
+          <button
+            class="btn inc-btn border border-[#4A8DB7] text-[#3B7097] px-4 py-2 rounded-lg hover:bg-[#75BDE0] hover:text-white hover:duration-300"
+          >
+            Increase
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
